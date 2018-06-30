@@ -8,13 +8,15 @@ O algoritmo desenvolvido recebe uma requisição do cliente e de acordo com o ti
 ## Quick start:
 <p>1- Fazer download completo do repositório.<p>
 <p>2- Abrir algum navegador e acessar o endereço:http://206.189.231.128:3000.<p>
-<p>3- Inserir o nome de um dos seguintes locais:<p>  
+<p>3- A seguinte página será carregada:<p>  
+<p>3- Inserir o nome de um dos seguintes locais no campo 'Cidade':<p>  
+![image1](https://user-images.githubusercontent.com/35512686/42123309-2ac88ac8-7c26-11e8-9fa3-849e5fa21955.jpg)
 <p>- Navegantes<p>   
 <p>- Prefeitura<p> 
 <p>- UFSC<p> 
 <p>- Vila Germânica<p> 
 <p>4- Pressionar o botão 'Enviar'.<p>
-<p>5- O resultado exibido será mostrado nos campos 'Carro' (tempo de deslocamento de carro) e 'Onibûs' (tempo de deslocamento de ônibus).<p>
+<p>5- O resultado exibido será mostrado nos campos 'Carro' (tempo de deslocamento de carro) e 'Ônibus' (tempo de deslocamento de ônibus) ambos no formato no formato textual.<p>
  
 ## System Structure:
 **Módulo 1: Obter Informações**  
@@ -42,14 +44,8 @@ Responsável por atender as requisições dos clientes, o webservice deve dispon
 - Velocidade e direção do vento.  
 - Tempo de deslocamento, tanto de carro, quanto de ônibus, do Porto de Itajaí até o local solicitado pelo cliente (um dos quatro locais disponíveis citados acima).  
 
-## Results:
-**Dataset**  
- ![building1](https://user-images.githubusercontent.com/35512686/39162585-9d2aba6e-474c-11e8-9dc5-d646d0621f64.JPG)
- ![building2](https://user-images.githubusercontent.com/35512686/39162586-9d55aef4-474c-11e8-88b3-ab9239e4d800.JPG)
- ![building3](https://user-images.githubusercontent.com/35512686/39162587-9d812ade-474c-11e8-8250-b14df9318203.JPG)
- ![building4](https://user-images.githubusercontent.com/35512686/39162589-9dac12ee-474c-11e8-9067-80fa51a4cea4.JPG)
- ![building5](https://user-images.githubusercontent.com/35512686/39162591-9defa7b6-474c-11e8-8059-2e46194290de.JPG)  
-**Resultado**  
+## Results: 
+**Resultados**
 ![resultado](https://user-images.githubusercontent.com/35512686/39167838-94c8c65c-4767-11e8-9f0b-8600ba6cc797.jpg)
 ## Requirements:
 - Cassandra
