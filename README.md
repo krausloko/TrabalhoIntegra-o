@@ -14,26 +14,29 @@ O algoritmo desenvolvido é segmentado em três módulos:uma requisição do cli
 
 ## How it works:
 **Módulo 1: Obter Informações**  
-Responsável por acessar o webservice Open Weather Map a cada um minuto para obter informações do clima do Porto de Itajaí:  
-- Temperatura atual em graus Celsius;  
-- Umidade relativa do ar atual;  
+Responsável por acessar o webservice Open Weather Map a cada um minuto para obter informações do clima do Porto de Itajaí:
+- Temperatura atual em graus Celsius.
+- Umidade relativa do ar atual.  
 - Velocidade e direção do vento atuais.  
 Além das informações do clima, também é responsável por acessar o webservice do Google Maps para obter o tempo de deslocamento deste local até as quatros localidades disponíveis:  
-- UFSC Blumenau (coordenadas: -26.920729, -49.098526);  
-- Vila Germânica (coordenadas: -26.914024, -49.085023);  
-- Prefeitura de Blumenau (coordenadas:  
+- UFSC Blumenau (coordenadas: -26.920729, -49.098526).  
+- Vila Germânica (coordenadas: -26.914024, -49.085023).  
+- Prefeitura de Blumenau (coordenadas: -26.877582, -48.649516).  
 - Aeroporto de Navegantes (coordenadas: -26.877582, -48.649516).  
+
 **Módulo 2: Salvar Informações**  
 Responsável por persistir as leituras do clima e dos tempos de deslocamento em um banco de dados NoSQL, o Cassandra.  
+
 **Módulo 3: Disponibilizar Informações**  
+
 Responsável por atender as requisições dos clientes, o webservice deve disponibilizar informações de acordo com o tipo de requisição enviado pelo cliente as seguintes informações:
 - Nome do local a que os dados armazenados pelo webservice se referem (neste caso Porto de Itajaí)
-- Data da última leitura de dados;
-- Hora da última leitura de dados;
-- Temperatura atual; 
-- Umidade relativa do ar atual;
-- Velocidade e direção do vento;
-- Tempo de deslocamento, tanto de carro, quanto de ônibus, do Porto de Itajaí até o local solicitado pelo cliente (um dos quatro locais disponíveis citados acima). 
+- Data da última leitura de dados.
+- Hora da última leitura de dados.
+- Temperatura atual.  
+- Umidade relativa do ar atual.  
+- Velocidade e direção do vento.  
+- Tempo de deslocamento, tanto de carro, quanto de ônibus, do Porto de Itajaí até o local solicitado pelo cliente (um dos quatro locais disponíveis citados acima).  
 
 Para ver o embasamento teórico e explicação detalhada do código basta ler o arquivo 'Relatório A1 - Visão Computacional.pdf'
 
