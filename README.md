@@ -45,10 +45,13 @@ Responsável por atender as requisições dos clientes, o webservice deve dispon
 - Tempo de deslocamento, tanto de carro, quanto de ônibus, do Porto de Itajaí até o local solicitado pelo cliente (um dos quatro locais disponíveis citados acima).  
 
 ## Results: 
-- Resultado Navegantes  
+Resultado Navegantes:  
 ![nav](https://user-images.githubusercontent.com/35512686/42123310-2af29052-7c26-11e8-94a5-92f9fd8424cf.jpg)
+Resultado Prefeitura:  
 ![pref](https://user-images.githubusercontent.com/35512686/42123311-2b1b7c06-7c26-11e8-874c-cf3e976c5b37.jpg)
+Resultado UFSC:  
 ![ufsc](https://user-images.githubusercontent.com/35512686/42123312-2b6ebb78-7c26-11e8-9166-3e998e990155.jpg)
+Resultado Vila Germânica:  
 ![vila](https://user-images.githubusercontent.com/35512686/42123318-3c16585a-7c26-11e8-88f2-db9861754c0d.jpg)
 
 ## Requirements:
