@@ -8,10 +8,10 @@ O algoritmo desenvolvido recebe uma requisição do cliente e de acordo com o ti
 ## Quick start:
 <p>1- Fazer download completo do repositório.<p>
 <p>2- Executar o arquivo 'Avaliacao_1_homografia.m'.<p>
-<p>3- Inserir o caminho para a pasta com conjunto de imagens (dataset) 'Avaliacao_1_homografia.m'.<p>
-<p>4- Optar por uma das referências possíveis: 0 para imagem do canto ou 1 para imagem central.<p>
-<p>5- Abrir as janelas para ver o panorama.<p>
-
+<p>3- Abrir algum navegador e acessar o endereço:http://206.189.231.128:3000.<p>
+<p>4- Inserir o nome da cidade e pressionar o botão 'Enviar'.<p>
+<p>5- Aguardar o resultado.<p>
+ 
 ## System Structure:
 **Módulo 1: Obter Informações**  
 Responsável por acessar o webservice Open Weather Map a cada um minuto para obter informações do clima do Porto de Itajaí:
@@ -29,7 +29,6 @@ Além das informações do clima, também é responsável por acessar o webservi
 Responsável por persistir as leituras do clima e dos tempos de deslocamento em um banco de dados NoSQL, o Cassandra.  
 
 **Módulo 3: Disponibilizar Informações**  
-
 Responsável por atender as requisições dos clientes, o webservice deve disponibilizar informações de acordo com o tipo de requisição enviado pelo cliente as seguintes informações:
 - Nome do local a que os dados armazenados pelo webservice se referem (neste caso Porto de Itajaí)
 - Data da última leitura de dados.
@@ -38,8 +37,6 @@ Responsável por atender as requisições dos clientes, o webservice deve dispon
 - Umidade relativa do ar atual.  
 - Velocidade e direção do vento.  
 - Tempo de deslocamento, tanto de carro, quanto de ônibus, do Porto de Itajaí até o local solicitado pelo cliente (um dos quatro locais disponíveis citados acima).  
-
-Para ver o embasamento teórico e explicação detalhada do código basta ler o arquivo 'Relatório A1 - Visão Computacional.pdf'
 
 ## Results:
 **Dataset**  
@@ -51,7 +48,7 @@ Para ver o embasamento teórico e explicação detalhada do código basta ler o 
 **Resultado**  
 ![resultado](https://user-images.githubusercontent.com/35512686/39167838-94c8c65c-4767-11e8-9f0b-8600ba6cc797.jpg)
 ## Requirements:
-- Matlab R2016 ou mais recente
-- Machine Vision Toolbox - Peter Corke
+- Cassandra
+- XXXXX
 ## License:
 This toolbox is under the MIT License: http://opensource.org/licenses/MIT.
