@@ -22,7 +22,7 @@ Além das informações do clima, também é responsável por acessar o webservi
 - UFSC Blumenau (coordenadas: -26.920729, -49.098526);
 - Vila Germânica (coordenadas: -26.914024, -49.085023); 
 - Prefeitura de Blumenau (coordenadas:
-- Aeroporto de Navegantes (coordenadas: -26.877582, -48.649516).
+- Aeroporto de Navegantes (coordenadas: -26.877582, -48.649516).  
 **Parte 2: Passar imagens para escala de cinza (algumas funções fazem isto de forma automática)**  
  Transformar as imagens coloridas para escala de cinza  
 **Parte 3: Verificar tamanho do conjunto de imagens, encontrar features, encontrar matches, calcular homografia otimizada**  
