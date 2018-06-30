@@ -8,11 +8,11 @@ O algoritmo desenvolvido recebe uma requisição do cliente e de acordo com o ti
 ## Quick start:
 <p>1- Fazer download completo do repositório.<p>
 <p>2- Abrir algum navegador e acessar o endereço:http://206.189.231.128:3000.<p>
-<p>3- Inserir o nome de um dos seguintes locais:<p>
-- Navegantes  
-- Prefeitura  
-- UFSC  
-- Vila Germânica  
+<p>3- Inserir o nome de um dos seguintes locais:<p>  
+<p>- Navegantes<p>   
+<p>- Prefeitura<p> 
+<p>- UFSC<p> 
+<p>- Vila Germânica<p> 
 <p>4- Pressionar o botão 'Enviar'.<p>
 <p>5- O resultado exibido será mostrado nos campos 'Carro' (tempo de deslocamento de carro) e 'Onibûs' (tempo de deslocamento de ônibus).<p>
  
