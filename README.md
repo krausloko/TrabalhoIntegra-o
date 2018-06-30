@@ -23,21 +23,17 @@ Além das informações do clima, também é responsável por acessar o webservi
 - Vila Germânica (coordenadas: -26.914024, -49.085023); 
 - Prefeitura de Blumenau (coordenadas:  
 - Aeroporto de Navegantes (coordenadas: -26.877582, -48.649516).  
-**Parte 2: Passar imagens para escala de cinza (algumas funções fazem isto de forma automática)**  
- Transformar as imagens coloridas para escala de cinza  
-**Parte 3: Verificar tamanho do conjunto de imagens, encontrar features, encontrar matches, calcular homografia otimizada**  
- Verificar o tamanho de I - quantas imagens existem no conjunto  
- Aplicar função _isurf_ para encontrar features da imagem I(i)  
- Comparar features das Imagens I(i) e I(i-1) para encontrar matches  
- Utilizar função iterativa _ransac_ para calcular a melhor homografia que relaciona I(i) e I(i-1)   
- Calcular homografia global para relacionar I(i) com I(1).  
-**Parte 4: Testar Homografia**  
- Aplicar homografia para verficar resultado  
-**Parte 5: Carregar imagens novamente**  
- Carregar imagens coloridas novamente  
-**Parte 6: Construir Panorama**  
- Construir panorama com as imagens transformadas  
-
+**Módulo 2: Salvar Informações.**  
+Responsável por persistir as leituras do clima e dos tempos de deslocamento em um banco de dados NoSQL, o Cassandra.  
+**Módulo 3: Disponibilizar Informações**  
+Responsável por atender as requisições dos clientes, o webservice deve disponibilizar informações de acordo com o tipo de requisição enviado pelo cliente as seguintes informações:
+- Nome do local a que os dados armazenados pelo webservice se referem (neste caso Porto de Itajaí)
+- Data da última leitura de dados;
+- Hora da última leitura de dados;
+- Temperatura atual; 
+- Umidade relativa do ar atual;
+- Velocidade e direção do vento;
+- Tempo de deslocamento, tanto de carro, quanto de ônibus, do Porto de Itajaí até o local solicitado pelo cliente (um dos quatro locais disponíveis citados acima). 
 
 Para ver o embasamento teórico e explicação detalhada do código basta ler o arquivo 'Relatório A1 - Visão Computacional.pdf'
 
