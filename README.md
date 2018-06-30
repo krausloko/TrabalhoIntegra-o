@@ -7,10 +7,14 @@ O algoritmo desenvolvido recebe uma requisição do cliente e de acordo com o ti
 
 ## Quick start:
 <p>1- Fazer download completo do repositório.<p>
-<p>2- Executar o arquivo 'Avaliacao_1_homografia.m'.<p>
-<p>3- Abrir algum navegador e acessar o endereço:http://206.189.231.128:3000.<p>
-<p>4- Inserir o nome da cidade e pressionar o botão 'Enviar'.<p>
-<p>5- Aguardar o resultado.<p>
+<p>2- Abrir algum navegador e acessar o endereço:http://206.189.231.128:3000.<p>
+<p>3- Inserir o nome de um dos seguintes locais:<p>
+- Navegantes  
+- Prefeitura  
+- UFSC  
+- Vila Germânica  
+<p>4- Pressionar o botão 'Enviar'.<p>
+<p>5- O resultado exibido será mostrado nos campos 'Carro' (tempo de deslocamento de carro) e 'Onibûs' (tempo de deslocamento de ônibus).<p>
  
 ## System Structure:
 **Módulo 1: Obter Informações**  
@@ -19,7 +23,7 @@ Responsável por acessar o webservice Open Weather Map a cada um minuto para obt
 - Umidade relativa do ar atual.  
 - Velocidade e direção do vento atuais.  
 
-Além das informações do clima, também é responsável por acessar o webservice do Google Maps para obter o tempo de deslocamento deste local até as quatros localidades disponíveis:
+Além das informações do clima, também é responsável por acessar o webservice do Google Maps para obter o tempo de deslocamento deste local até uma das quatros localidades disponíveis:
 - UFSC Blumenau (coordenadas: -26.920729, -49.098526).  
 - Vila Germânica (coordenadas: -26.914024, -49.085023).  
 - Prefeitura de Blumenau (coordenadas: -26.877582, -48.649516).  
