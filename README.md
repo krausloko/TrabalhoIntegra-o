@@ -3,7 +3,7 @@
 Trabalho Final da disciplina BLU3024 - Integração de Sistemas para Automação, UFSC - Campus Blumenau
 
 ## Function:
-O algoritmo desenvolvido é segmentado em três módulos:uma requisição do cliente e de acordo com o tipo de soliticação realizada enviará informações acerca do clima e do tempo de deslocamento de uma das localidades disponíveis.
+O algoritmo desenvolvido recebe uma requisição do cliente e de acordo com o tipo de soliticação realizada enviará informações acerca do clima do Porto de Itajaí e do tempo de deslocamento deste local até uma das localidades disponíveis.
 
 ## Quick start:
 <p>1- Fazer download completo do repositório.<p>
@@ -12,13 +12,14 @@ O algoritmo desenvolvido é segmentado em três módulos:uma requisição do cli
 <p>4- Optar por uma das referências possíveis: 0 para imagem do canto ou 1 para imagem central.<p>
 <p>5- Abrir as janelas para ver o panorama.<p>
 
-## How it works:
+## System Structure:
 **Módulo 1: Obter Informações**  
 Responsável por acessar o webservice Open Weather Map a cada um minuto para obter informações do clima do Porto de Itajaí:
 - Temperatura atual em graus Celsius.
 - Umidade relativa do ar atual.  
 - Velocidade e direção do vento atuais.  
-Além das informações do clima, também é responsável por acessar o webservice do Google Maps para obter o tempo de deslocamento deste local até as quatros localidades disponíveis:  
+
+Além das informações do clima, também é responsável por acessar o webservice do Google Maps para obter o tempo de deslocamento deste local até as quatros localidades disponíveis:
 - UFSC Blumenau (coordenadas: -26.920729, -49.098526).  
 - Vila Germânica (coordenadas: -26.914024, -49.085023).  
 - Prefeitura de Blumenau (coordenadas: -26.877582, -48.649516).  
