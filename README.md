@@ -14,7 +14,7 @@ O algoritmo desenvolvido é segmentado em três módulos:uma requisição do cli
 
 ## How it works:
 **Módulo 1: Obter Informações**  
-Responsável por acessar o webservice Open Weather Map a cada um minuto para obter informações do clima do Porto de Itajaí:
+Responsável por acessar o webservice Open Weather Map a cada um minuto para obter informações do clima do Porto de Itajaí:  
 - Temperatura atual em graus Celsius;  
 - Umidade relativa do ar atual;  
 - Velocidade e direção do vento atuais.  
@@ -23,7 +23,7 @@ Além das informações do clima, também é responsável por acessar o webservi
 - Vila Germânica (coordenadas: -26.914024, -49.085023);  
 - Prefeitura de Blumenau (coordenadas:  
 - Aeroporto de Navegantes (coordenadas: -26.877582, -48.649516).  
-**Módulo 2: Salvar Informações.**  
+**Módulo 2: Salvar Informações**  
 Responsável por persistir as leituras do clima e dos tempos de deslocamento em um banco de dados NoSQL, o Cassandra.  
 **Módulo 3: Disponibilizar Informações**  
 Responsável por atender as requisições dos clientes, o webservice deve disponibilizar informações de acordo com o tipo de requisição enviado pelo cliente as seguintes informações:
