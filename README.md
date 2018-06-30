@@ -2,9 +2,8 @@
 
 Trabalho Final da disciplina BLU3024 - Integração de Sistemas para Automação, UFSC - Campus Blumenau
 
-## Função:
-
-O algoritmo desenvolvido recebe uma requisição do cliente  de acordo com o tipo de soliticação realizada enviará informações acerca do clima e do tempo de deslocamento.  
+## Function:
+O algoritmo desenvolvido recebe uma requisição do cliente e de acordo com o tipo de soliticação realizada enviará informações acerca do clima e do tempo de deslocamento de uma das localidades disponíveis.
 
 ## Quick start:
 <p>1- Fazer download completo do repositório.<p>
